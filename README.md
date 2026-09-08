@@ -35,14 +35,13 @@ Une ligne par ressource, dans la bonne catégorie :
 
 ## 🏫 42 (ressources spécifiques cursus)
 
--
-
-## 🎓 Cours / Tutos / Vidéos
-
 ### Examen
 - [Rank03](https://rank03.42exam.net/) - python subjects
 - [Rank04](https://rank04.42exam.net/) - python subjects
 
+## 🎓 Cours / Tutos / Vidéos
+
+-
 ## 💡 Divers / À trier
 
 -
