@@ -25,7 +25,7 @@ Une ligne par ressource, dans la bonne catégorie :
 
 -
 
-## Git
+##   Git
 
 - [Learn Git Branching](https://learngitbranching.js.org/?locale=fr_FR) - application pour apprendre le fonctionnement des branches Git
 
