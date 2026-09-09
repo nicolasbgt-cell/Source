@@ -19,7 +19,7 @@ Une ligne par ressource, dans la bonne catégorie :
 ## 🧠 Algo / Data Structures
 
 - [Refactoring.Guru](https://refactoring.guru/fr) — design patterns, refactoring, principes SOLID
--
+- [Design Patern](https://github.com/design-patterns-for-humans/French) - design patterns en francais
 
 ## 🐍 Python
 
@@ -36,8 +36,8 @@ Une ligne par ressource, dans la bonne catégorie :
 ## 🏫 42 (ressources spécifiques cursus)
 
 ### Examen
-- [Rank03](https://rank03.42exam.net/) - python subjects
-- [Rank04](https://rank04.42exam.net/) - python subjects
+- [Rank03](https://rank03.42exam.net/) - sujet python examen
+- [Rank04](https://rank04.42exam.net/) - sujet python examen
 
 ## 🎓 Cours / Tutos / Vidéos
 
