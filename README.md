@@ -23,7 +23,7 @@ Une ligne par ressource, dans la bonne catégorie :
 
 ## 🐍 Python
 
--
+- [Documentation Python](https://docs.python.org/fr/3/contents.html) - doc complet Python
 
 ## 🛠️ Git
 
