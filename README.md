@@ -40,9 +40,15 @@ Une ligne par ressource, dans la bonne catégorie :
 
 -
 
-## SQLite & PostgreSQL
+## SQL
+
+### SQLite
 
 - [SQLite doc](https://www.sqlite.org/docs.html) - doc de SQLite
+
+### PostgreSQL
+
+-
 
 ## 🛠️ Outils / CLI
 
