@@ -23,7 +23,14 @@ Une ligne par ressource, dans la bonne catégorie :
 
 ## 🐍 Python
 
+### Générale
+
 - [Documentation Python](https://docs.python.org/fr/3/contents.html) - doc complet Python
+
+### Bibliothéque
+
+- [Pygame](https://www.pygame.org/docs/) - doc complet Pygame
+
 
 ## 🛠️ Git
 
