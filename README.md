@@ -44,11 +44,11 @@ Une ligne par ressource, dans la bonne catégorie :
 
 ### SQLite
 
-- [SQLite doc](https://www.sqlite.org/docs.html) - doc de SQLite
+- [SQLite doc](https://www.sqlite.org/docs.html) - doc officiel SQLite
 
 ### PostgreSQL
 
--
+- [PostgreSQL](https://www.postgresql.org/docs/) - doc officiel Postgre
 
 ## 🛠️ Outils / CLI
 
