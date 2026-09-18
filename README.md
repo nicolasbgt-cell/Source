@@ -56,7 +56,7 @@ Collection perso de sites/outils/docs trouvés au fil de l'eau (42, dev, C, Pyth
 - [Rank03](https://rank03.42exam.net/) - sujet python examen
 - [Rank04](https://rank04.42exam.net/) - sujet python examen
 
-## 🎓 Cours / Tutos / Vidéos
+## Cours / Tutos / Vidéos
 
 - [Codexion Visualizer](https://codexion-visualizer.sacha-dev.me/) - visualiseur des threads
 - [Threads](https://www.youtube.com/playlist?list=PLfqABt5AS4FmuQf70psXrsMLEDQXNkLq2) - Unix Threads en C
