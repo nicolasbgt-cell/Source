@@ -2,26 +2,13 @@
 
 Collection perso de sites/outils/docs trouvés au fil de l'eau (42, dev, C, Python, système...).
 
-## Comment ajouter une ressource
-
-Une ligne par ressource, dans la bonne catégorie :
-
-```md
-- [Nom du site](https://lien.com) — courte description de pourquoi c'est utile
-```
-
----
-
-## 📚 Documentation / Référence
-
-- [ ] (exemple) [cppreference](https://cppreference.com) — référence C/C++
-
-## 🧠 Algo / Data Structures
+## Algo / Data Structures
 
 - [Refactoring.Guru](https://refactoring.guru/fr) — design patterns, refactoring, principes SOLID
 - [Design Patern](https://github.com/design-patterns-for-humans/French) - design patterns en francais
+- [Algorithme A* ](https://fr.wikipedia.org/wiki/Algorithme_A*) - page wiki
 
-## 🐍 Python
+## Python
 
 ### Générale
 
@@ -31,16 +18,17 @@ Une ligne par ressource, dans la bonne catégorie :
 
 - [Pygame](https://www.pygame.org/docs/) - doc complet Pygame
 
-
-## 🛠️ Git
+## Git
 
 - [Learn Git Branching](https://learngitbranching.js.org/?locale=fr_FR) - application pour apprendre le fonctionnement des branches Git
 
-## ⚙️ C / Système / Réseau
+## C / Système / Réseau
 
 -
 
 ## SQL
+
+- [SQLBolt](https://sqlbolt.com/) - tuto interactif pour apprendre le SQL
 
 ### SQLite
 
@@ -49,20 +37,30 @@ Une ligne par ressource, dans la bonne catégorie :
 ### PostgreSQL
 
 - [PostgreSQL](https://www.postgresql.org/docs/) - doc officiel Postgre
+- [PostgreSQL Tutorial](https://neon.com/postgresql/tutorial) - tuto Postgre
 
-## 🛠️ Outils / CLI
+## Typescript
 
--
+- [TypeScript](https://www.typescriptlang.org/docs/) - doc officiel de TypeScript
 
-## 🏫 42 (ressources spécifiques cursus)
+## Outils / CLI
+
+### Docker
+
+- [Simulateur docker](https://killercoda.com/docker) - simulateur de scenario
+
+## 42 (ressources spécifiques cursus)
 
 ### Examen
+
 - [Rank03](https://rank03.42exam.net/) - sujet python examen
 - [Rank04](https://rank04.42exam.net/) - sujet python examen
 
 ## 🎓 Cours / Tutos / Vidéos
 
--
-## 💡 Divers / À trier
+- [Codexion Visualizer](https://codexion-visualizer.sacha-dev.me/) - visualiseur des threads
+- [Threads](https://www.youtube.com/playlist?list=PLfqABt5AS4FmuQf70psXrsMLEDQXNkLq2) - Unix Threads en C
+
+## Divers / À trier
 
 -
