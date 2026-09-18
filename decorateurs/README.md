@@ -1,9 +1,5 @@
 # Les décorateurs Python — Guide complet
 
-Référence générale, indépendante d'un sujet 42 précis (tu as déjà vu les bases dans FuncMage et le `@staticmethod`/`@classmethod` de Code Cultivation) — ici on fait le tour de **tout ce qui existe** en décorateurs : natifs Python, `functools`, et comment écrire les tiens.
-
----
-
 ## 1. Rappel : qu'est-ce qu'un décorateur ?
 
 Un décorateur est une fonction qui **prend une fonction (ou une classe) en entrée et renvoie quelque chose à la place** — le plus souvent une version enrichie de l'original.
