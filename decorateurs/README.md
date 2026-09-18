@@ -1,6 +1,10 @@
 # Les décorateurs Python — Guide complet
 
-## 1. Rappel : qu'est-ce qu'un décorateur ?
+Référence sur les décorateurs Python : natifs, `functools`, et comment écrire les tiens.
+
+---
+
+## 1. Qu'est-ce qu'un décorateur ?
 
 Un décorateur est une fonction qui **prend une fonction (ou une classe) en entrée et renvoie quelque chose à la place** — le plus souvent une version enrichie de l'original.
 
@@ -62,7 +66,7 @@ class Circle:
 c = Circle(5)
 c.area   # pas c.area() — se comporte comme un attribut, mais recalculé à chaque lecture
 ```
-C'est la version "propre" de l'encapsulation vue dans Code Cultivation (`get_height()`) : au lieu d'une méthode `get_area()` qu'il faut appeler avec `()`, `@property` permet d'écrire `c.area` directement, tout en gardant la logique de calcul cachée derrière.
+C'est une façon plus élégante de gérer un attribut calculé ou protégé : au lieu d'une méthode `get_area()` qu'il faut appeler avec `()`, `@property` permet d'écrire `c.area` directement, tout en gardant la logique de calcul cachée derrière.
 
 **`@x.setter`** — complète une `@property` pour permettre l'écriture, avec validation :
 ```python
@@ -81,7 +85,7 @@ c.radius = 10   # passe par le setter, qui valide avant d'assigner
 ```
 
 ### `@abstractmethod` (module `abc`)
-Vu dans Code Nexus / Data Deck : force toute sous-classe à implémenter cette méthode, sinon elle reste abstraite et non-instanciable.
+Force toute sous-classe à implémenter cette méthode, sinon elle reste abstraite et non-instanciable.
 ```python
 from abc import ABC, abstractmethod
 
@@ -105,16 +109,14 @@ p2 = Point(1.0, 2.0)
 p1 == p2        # True — __eq__ généré automatiquement, compare les attributs
 print(p1)       # Point(x=1.0, y=2.0) — __repr__ généré automatiquement
 ```
-C'est l'équivalent déclaratif de ce que tu codais à la main dans Code Cultivation (`__init__` avec `self.x = x`, etc.) — dans le même esprit que Pydantic (Cosmic Data), mais sans validation : `@dataclass` économise juste l'écriture, il ne vérifie pas les types à l'exécution.
-
-*(Remarque : je n'ai trouvé ce décorateur dans aucun des sujets 42 que tu m'as donnés jusqu'ici — il est ici parce qu'il fait partie du langage standard, pas parce qu'un module de la piscine l'exige.)*
+C'est l'équivalent déclaratif de ce qu'on écrirait à la main avec un `__init__` classique (`self.x = x`, etc.) — dans le même esprit qu'une bibliothèque de validation type Pydantic, mais sans validation intégrée : `@dataclass` économise juste l'écriture, il ne vérifie pas les types à l'exécution.
 
 ---
 
 ## 3. Décorateurs de `functools`
 
 ### `@functools.wraps`
-Préserve les métadonnées (`__name__`, `__doc__`) d'une fonction décorée — indispensable dans **tout** décorateur "fait maison" (vu en détail dans FuncMage) :
+Préserve les métadonnées (`__name__`, `__doc__`) d'une fonction décorée — indispensable dans **tout** décorateur fait maison :
 ```python
 from functools import wraps
 
@@ -128,7 +130,7 @@ def logger(func):
 Sans `@wraps(func)`, `ma_fonction.__name__` deviendrait `"wrapper"` au lieu du vrai nom — gênant pour le debug, la documentation, ou tout code qui inspecte les fonctions.
 
 ### `@functools.lru_cache` / `@functools.cache`
-Mémoïse le résultat d'une fonction selon ses arguments — évite de recalculer ce qui a déjà été calculé (vu dans FuncMage ex3).
+Mémoïse le résultat d'une fonction selon ses arguments — évite de recalculer ce qui a déjà été calculé.
 ```python
 from functools import lru_cache
 
@@ -139,7 +141,7 @@ def fibonacci(n):
 `@cache` (Python 3.9+) est un raccourci pour `@lru_cache(maxsize=None)` — un cache sans limite de taille.
 
 ### `@functools.singledispatch`
-Une fonction qui change d'implémentation selon le **type** de son premier argument, sans `if isinstance(...)` (vu dans FuncMage ex3).
+Une fonction qui change d'implémentation selon le **type** de son premier argument, sans `if isinstance(...)`.
 ```python
 from functools import singledispatch
 
@@ -198,8 +200,10 @@ r.total   # ne recalcule pas, renvoie directement 6
 
 ### Décorateur simple
 ```python
+import time
+from functools import wraps
+
 def timer(func):
-    import time
     @wraps(func)
     def wrapper(*args, **kwargs):
         start = time.time()
@@ -210,7 +214,7 @@ def timer(func):
 ```
 
 ### Décorateur paramétrable (decorator factory)
-Vu dans FuncMage — un niveau d'imbrication en plus pour accepter un argument sur le décorateur lui-même :
+Un niveau d'imbrication en plus pour accepter un argument sur le décorateur lui-même :
 ```python
 def retry(max_attempts):
     def decorator(func):
@@ -251,7 +255,7 @@ def say_hi():
 say_hi()   # Call #1 / hi
 say_hi()   # Call #2 / hi
 ```
-Utile quand le décorateur doit garder un **état** plus riche qu'une simple closure (ici, `self.count` persiste naturellement en tant qu'attribut d'instance).
+Utile quand le décorateur doit garder un **état** plus riche qu'une simple fermeture (ici, `self.count` persiste naturellement en tant qu'attribut d'instance).
 
 ### Empiler plusieurs décorateurs
 Les décorateurs s'appliquent **de bas en haut**, mais s'exécutent au final **de haut en bas** :
