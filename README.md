@@ -49,6 +49,10 @@ Collection perso de sites/outils/docs trouvés au fil de l'eau (42, dev, C, Pyth
 
 - [Simulateur docker](https://killercoda.com/docker) - simulateur de scenario
 
+### VsCode
+
+- [Keyboard shortcuts](https://visualstudio.microsoft.com/keyboard-shortcuts.pdf) - racourci clavier
+
 ## 42 (ressources spécifiques cursus)
 
 ### Examen
