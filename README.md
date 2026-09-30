@@ -51,7 +51,7 @@ Collection perso de sites/outils/docs trouvés au fil de l'eau (42, dev, C, Pyth
 
 ### VsCode
 
-- [Keyboard shortcuts](https://visualstudio.microsoft.com/keyboard-shortcuts.pdf) - racourci clavier
+- [Keyboard shortcuts](https://code.visualstudio.com/docs/configure/keybindings) - racourci clavier
 
 ## 42 (ressources spécifiques cursus)
 
