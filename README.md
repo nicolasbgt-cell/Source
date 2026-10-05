@@ -12,7 +12,8 @@ Collection perso de sites/outils/docs trouvés au fil de l'eau (42, dev, C, Pyth
 
 ### Générale
 
-- [Documentation Python](https://docs.python.org/fr/3/contents.html) - doc complet Python
+- [Documentation Python](https://docs.python.org/fr/3/contents.html) - doc complet officiel Python
+- [Tuto Python](https://koor.fr/Python/Index.wp) - tuto Python, Tkinter, PySide/Qt, NumPy, MatPlotLib, Scipy, Pandas en francais
 
 ### Bibliothéque
 
@@ -24,7 +25,7 @@ Collection perso de sites/outils/docs trouvés au fil de l'eau (42, dev, C, Pyth
 
 ## C / Système / Réseau
 
--
+- [Guide C](https://koor.fr/C/Index.wp) - tuto sur le langage C avec ces librairies en Francais
 
 ## SQL
 
