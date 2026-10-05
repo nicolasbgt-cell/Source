@@ -53,6 +53,10 @@ Collection perso de sites/outils/docs trouvés au fil de l'eau (42, dev, C, Pyth
 
 - [Keyboard shortcuts](https://code.visualstudio.com/docs/configure/keybindings) - racourci clavier
 
+## Linux
+
+- [Administration Linux](https://linux.goffinet.org/) - intro a linux et shell
+
 ## 42 (ressources spécifiques cursus)
 
 ### Examen
