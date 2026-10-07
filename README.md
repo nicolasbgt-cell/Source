@@ -26,7 +26,8 @@ Collection perso de sites/outils/docs trouvés au fil de l'eau (42, dev, C, Pyth
 ## C / Système / Réseau
 
 - [Guide C](https://koor.fr/C/Index.wp) - tuto sur le langage C avec ces librairies en Francais
-- [Operateurs bit a bit](https://emmanuel-delahaye.developpez.com/tutoriels/c/operateurs-bit-bit-c/) - Manipulation des bits
+- [Operateurs bit a bit](https://emmanuel-delahaye.developpez.com/tutoriels/c/operateurs-bit-bit-c/) - manipulation des bits
+- [Bitwise operations](https://en.wikipedia.org/wiki/Bitwise_operations_in_C) - bitwise operators
 
 ## SQL
 
