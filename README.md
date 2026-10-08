@@ -2,6 +2,12 @@
 
 Collection perso de sites/outils/docs trouvés au fil de l'eau (42, dev, C, Python, système...).
 
+## Architecture
+
+- [8 bits](https://fr.wikipedia.org/wiki/Architecture_8_bits) - guide wiki sur l'architecture 8 bits
+- [16 bits](https://fr.wikipedia.org/wiki/Architecture_16_bits) - guide wiki sur l'architecture 16 bits
+- [32 bits](https://fr.wikipedia.org/wiki/Architecture_32_bits) - guide wiki sur l'architecture 32 bits
+
 ## Algo / Data Structures
 
 - [Refactoring.Guru](https://refactoring.guru/fr) — design patterns, refactoring, principes SOLID
