@@ -14,6 +14,10 @@ Collection perso de sites/outils/docs trouvés au fil de l'eau (42, dev, C, Pyth
 - [Design Patern](https://github.com/design-patterns-for-humans/French) - design patterns en francais
 - [Algorithme A* ](https://fr.wikipedia.org/wiki/Algorithme_A*) - page wiki
 
+## HTML / CSS / JavaScript
+
+- [Guide complet](https://developer.mozilla.org/fr/) - guide complet HTML/CSS/JavaScript
+
 ## Python
 
 ### Générale
