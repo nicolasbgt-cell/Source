@@ -70,6 +70,10 @@ Collection perso de sites/outils/docs trouvés au fil de l'eau (42, dev, C, Pyth
 
 - [Administration Linux](https://linux.goffinet.org/) - intro a linux et shell
 
+## AI
+
+- [OpenShell](https://docs.nvidia.com/openshell/about/overview) - environnement qui permet de donner des autorisations a un harness qui et dans une sandbox
+
 ## 42 (ressources spécifiques cursus)
 
 ### Examen
